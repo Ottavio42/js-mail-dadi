@@ -51,7 +51,7 @@ function lancio() {
   }
   var mail = prompt("Inserisci la tua email:");
 
-  if (email = mail)
+  if (email == mail)
     document.getElementById("Benvenuto").innerHTML = "Benvenuto: " + mail;
   else 
     document.getElementById("Benvenuto").innerHTML = "Abbiamo chiamato la polizia";
