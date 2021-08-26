@@ -41,23 +41,3 @@ function lancio() {
   else
       document.getElementById("vinto").innerHTML = "hai perso";
   }
-  
-//   EMAIL
-  
-  
-  var email = ['ottaviog88@gmail.com', 'ottaviogiudici@gmail.com', 'otto8@gmail.com'] 
-  
-  var mail = prompt("Inserisci la tua email:");
-
-  var accesso = false;
-
-  for (var i = 0; i < email.length; i++) {
-    if ( email == mail ){
-        accesso = true;
-    }
-}
-
-  if (accesso = true)
-    document.getElementById("Benvenuto").innerHTML = "Benvenuto: " + mail;
-  else 
-    document.getElementById("Benvenuto").innerHTML = "Non sei autorizzato al gioco dei dadi";
